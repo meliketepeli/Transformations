@@ -1,7 +1,7 @@
 # Transformations
 
 Bu proje, **görüntü işleme** üzerine iki temel dönüşüm işlemini MATLAB kullanarak göstermektedir:  
-1. **Thresholding (Eşikleme)** – Gri tonlamalı bir görüntünün ikili (binary) formata dönüştürülmesi.  
+1. **Thresholding** – Gri tonlamalı bir görüntünün ikili (binary) formata dönüştürülmesi.  
 2. **Connected Component Labelling** – Binary görüntüdeki bağlı bileşenlerin tespit edilip renkli hale getirilmesi.
 
 ---
@@ -47,5 +47,8 @@ Bu script, **Connected Component Labelling** (Bağlı bileşen etiketleme) tekni
 
 🍏 macOS'ta Çalıştırma
 1. **Projeyi İndir**
-git clone https://github.com/meliketepeli/Transformations.git
-cd Transformations
+   ```
+    git clone https://github.com/meliketepeli/Transformations.git
+    cd Transformations
+
+   
