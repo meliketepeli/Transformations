@@ -9,18 +9,18 @@ Bu proje, **görüntü işleme** üzerine iki temel dönüşüm işlemini MATLAB
 ## 🧠 Kodların Açıklaması
 
 ### 1️⃣ transformations.m
-Bu betik, bir gri tonlamalı görüntüyü (örnek: `Cyprus2.png`) **eşik değeri** kullanarak binary (0 ve 1) formata dönüştürür.  
+Bu script, bir gri tonlamalı görüntüyü (örnek: `Cyprus2.png`) **eşik değeri** (threshold) kullanarak binary (0 ve 1) formata dönüştürür.  
 
 **Adımlar:**
 - Görüntü yüklenir ve gösterilir.
-- Eşik değeri (`thresh=40`) belirlenir.
+- Eşik değeri (threshold) (`thresh=40`) belirlenir.
 - Piksel değerleri bu eşik değerine göre 0 veya 1 yapılır.
 - MATLAB’ın hazır `im2bw()` fonksiyonu ile aynı işlem tekrar gösterilir.
 
 ---
 
 ### 2️⃣ gray_binary_rgb.m
-Bu betik, **Connected Component Labelling** (Bağlı bileşen etiketleme) tekniğini uygular.  
+Bu script, **Connected Component Labelling** (Bağlı bileşen etiketleme) tekniğini uygular.  
 
 **Adımlar:**
 - Binary bir görüntü yüklenir (`binaryImg2.png`).
